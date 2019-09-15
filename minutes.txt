@@ -1,0 +1,14 @@
+Minutes of the meet -11-09-2019
+
+Project- Interconnect Modelling
+
+Project Members: A Shrikant (2nd yr), Iteesha Ashwath (3rd yr), Sahith(3rd yr)
+
+1. 2nd yr member is introduced to the project and the subtopics.
+2. 2nd yr member is provided materials to learn the basics and pre-requisites.
+3. Materials used:
+     a. Digital Integrated Circuits by Jan M Rabaey
+     b. Research papers on various interconnect models proposed.
+4. Second year member is given a timeframe from 24th September till mid October
+     to gain all the pre-requisites.
+5. Meanwhile 3rd yr members will be working on GUI part of the project.
