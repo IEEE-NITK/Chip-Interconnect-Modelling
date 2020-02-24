@@ -1,0 +1,23 @@
+*CMOS Inverter Cascaded
+
+.include ./t14y_tsmc_025_level3.txt
+.include ./Interconnect.txt
+
+Vdd Vd 0 5
+Vin In 0 dc 3 PULSE(0 5 0 .1n .1n .25m 0.5m)
+M1 Out1 In Vd Vd CMOSP W=3.75u L=0.3u
+M2 Out1 In 0 0 CMOSN W=2.25u L=0.3u
+M3 Out2 In2 Vd Vd CMOSP W=3.75u L=0.3u
+M4 Out2 In2 0 0 CMOSN W=2.25u L=0.3u
+
+
+.control
+tran 0.1ms 5ms
+plot In Out1 
+plot In2 Out2
+wrdata output1.txt In Out2
+meas tran tf trig v(Out2) val=4.5 fall=5 targ v(Out2) val=0.5 fall=5
+meas tran tr trig v(Out2) val=0.5 rise=5 targ v(Out2) val=4.5 rise=5
+meas tran td1 trig v(In) val=2.5 rise=5 targ v(Out2) val=2.5 rise=5
+
+.endc
