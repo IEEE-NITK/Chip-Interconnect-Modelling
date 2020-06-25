@@ -1,7 +1,7 @@
 # Modelling of On-Chip Interconnects using Physical Facbrication Parameters
 ## Abstract
 
-Abstract—This paper looks into the modelling and analysis of
+This project looks into the modelling and analysis of
 on-chip interconnects in the lower metal region of an Integrated
 Circuit (IC). A proposed pi-interconnect model is quantitatively
 modelled and analysed and the delay time, td is used as a metric
