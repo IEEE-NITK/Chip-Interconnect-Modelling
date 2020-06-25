@@ -17,4 +17,5 @@ for the fabrication parameters. The pi-model proposed was quantitaively analyzed
 of the model with the ideal circuit simulations on
 * A Driver-Load Inverter pair(CMOS Inverter pair).
 * A 3-Stage CMOS Ring OScillator.
+
 The time delay td was plotted for various interconnect lenghts and the accuracy of the model was analyzed. 
