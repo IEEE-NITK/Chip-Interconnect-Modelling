@@ -10,7 +10,8 @@
 
 ## Objectives
 
-#### Analysis and Modelling Lower Metal On-Chip Interconnects using Physical Fabrication Parameters
+* Analysis and Modelling Lower Metal On-Chip Interconnects using Physical Fabrication Parameters
+* Designing a GUI for displaying the results acquired from the model for any interconnect lengths
 
 The lower metal layers of the interconnects of the IC was chosen to analyse. A pi-model of RLC network was proposed to model the interconnects, which incorporates
 for the fabrication parameters. The pi-model proposed was quantitaively analyzed using the delay time td, which was used as a metric to note the differences in the performances
