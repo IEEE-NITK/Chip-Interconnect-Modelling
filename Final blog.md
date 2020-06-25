@@ -1,4 +1,4 @@
-# Modelling of On-Chip Interconnects using Physical Facbrication Parameters
+# Modelling of On-Chip Interconnects using Physical Fabrication Parameters
 ## Team Members
 
 * Sahith S R
