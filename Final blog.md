@@ -22,5 +22,16 @@ So the model's accuracy was analyzed wrt. different interconnect lenghts. The ot
 and media were taken to be fixed. The actual foundry parameters and equivalently, the actual circuit behaviour was obtained using a simualtion software
 'Electric Binary', which has 'LT Spice IV' on background, a primary tool for circuit simulation. 
 
-The model was first put on simulation using a driver-load inverter pair(CMOS inverter pair) and the time delay(or phase delay equivalently) between the waveforms
-resulted from using the proposed model and the actual foundry circuits. The model was put up between the inverters for the analysis.
+The transcient analysis on LT Spice was used as the main tool for the analysis. The model was first put on simulation using a driver-load inverter
+pair(CMOS inverter pair) and the time delay(or phase delay equivalently) between the waveforms resulted from using the proposed model and the actual foundry
+circuits. The model was put up between the inverters for the analysis. Various interconnect lenghts were used and the corresponding delays were plotted.
+
+Similarly, the analysis was repeated on a 3 stage CMOS Ring Oscillator circuit and the results were analyzed.
+
+
+## Results
+In case of the driver-load inverter pair, various plots of td vs interconnect length were obtained on different T/H ratios(thickness to height) and found that model 
+provided fairly accurate results for T/H close to 1.
+
+In case of the 3 stage CMOS Ring OScillator, the model presented fairly accurate results. The output frequency produced by the circuit with the model was within
+a range of 20% from the layout circuit(with foundry parameters).
