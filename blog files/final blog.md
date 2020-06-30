@@ -28,7 +28,8 @@ circuits. The model was put up between the inverters for the analysis. Various i
 
 Similarly, the analysis was repeated on a 3 stage CMOS Ring Oscillator circuit and the results were analyzed.
 
-![alt text](https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/length_new.png)
+<img src=""
+	title="A cute kitten" width="150" height="100" />
 
 ## Results
 In case of the driver-load inverter pair, various plots of td vs interconnect length were obtained on different T/H ratios(thickness to height) and found that model 
