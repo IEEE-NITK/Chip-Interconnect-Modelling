@@ -33,7 +33,7 @@ So the model's accuracy was analyzed wrt. different interconnect lenghts. The ot
 and media were taken to be fixed. The actual foundry parameters and equivalently, the actual circuit behaviour was obtained using a simualtion software
 'Electric Binary', which has 'LT Spice IV' on background, a primary tool for circuit simulation.
 
-<img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/cascade_new-1.png"
+<img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/cascade_layout.PNG"
 	title="Cascade" width="500" height="400"/>
 
 The transcient analysis on LT Spice was used as the main tool for the analysis. The model was first put on simulation using a driver-load inverter
