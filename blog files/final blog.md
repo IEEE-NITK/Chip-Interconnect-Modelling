@@ -18,6 +18,10 @@
 
 The lower metal layer wires were modelled using the proposed pi-model RLC network. The RLC values of the pi-network was carefully 
 chosen to match the actual characteristics of the wire under test. The lengths of the interconnects was chosen as the parameter of interest.
+
+<img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/layer.PNG"
+	title="Cascade" width="250" height="200" />
+
 So the model's accuracy was analyzed wrt. different interconnect lenghts. The other parameters like other dimensions of the wire, nature of materials 
 and media were taken to be fixed. The actual foundry parameters and equivalently, the actual circuit behaviour was obtained using a simualtion software
 'Electric Binary', which has 'LT Spice IV' on background, a primary tool for circuit simulation.
@@ -27,9 +31,6 @@ pair(CMOS inverter pair) and the time delay(or phase delay equivalently) between
 circuits. The model was put up between the inverters for the analysis. Various interconnect lenghts were used and the corresponding delays were plotted.
 
 Similarly, the analysis was repeated on a 3 stage CMOS Ring Oscillator circuit and the results were analyzed.
-
-<img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/cascade_new-1.png"
-	title="Cascade" width="150" height="100" />
 
 ## Results
 In case of the driver-load inverter pair, various plots of td vs interconnect length were obtained on different T/H ratios(thickness to height) and found that model 
