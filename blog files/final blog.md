@@ -64,5 +64,5 @@ a range of 20% from the layout circuit(with foundry parameters).
 <img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/ring_osc_out_new.png"
 	title="Cascade" width="500" height="450" />
 
-<img src="<img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/trans.png"
+<img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/trans.png"
 	title="Cascade" width="500" height="450" />
