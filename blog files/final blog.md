@@ -22,11 +22,6 @@ So the model's accuracy was analyzed wrt. different interconnect lenghts. The ot
 and media were taken to be fixed. The actual foundry parameters and equivalently, the actual circuit behaviour was obtained using a simualtion software
 'Electric Binary', which has 'LT Spice IV' on background, a primary tool for circuit simulation.
 
-
-![alt text](https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/layer.PNG)
-
-
-
 The transcient analysis on LT Spice was used as the main tool for the analysis. The model was first put on simulation using a driver-load inverter
 pair(CMOS inverter pair) and the time delay(or phase delay equivalently) between the waveforms resulted from using the proposed model and the actual foundry
 circuits. The model was put up between the inverters for the analysis. Various interconnect lenghts were used and the corresponding delays were plotted.
