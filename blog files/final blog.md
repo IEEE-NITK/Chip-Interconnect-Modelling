@@ -22,7 +22,7 @@ chosen to match the actual characteristics of the wire under test. The lengths o
 <img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/layer.PNG"
 	title="Cascade" width="250" height="200" />
 <img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/3D_view-1.png"
-	title="Cascade" width="250" height="200" />
+	title="Cascade" width="250" height="200" align='right' />
 
 So the model's accuracy was analyzed wrt. different interconnect lenghts. The other parameters like other dimensions of the wire, nature of materials 
 and media were taken to be fixed. The actual foundry parameters and equivalently, the actual circuit behaviour was obtained using a simualtion software
