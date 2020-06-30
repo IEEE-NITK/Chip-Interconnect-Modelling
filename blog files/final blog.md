@@ -23,6 +23,7 @@ and media were taken to be fixed. The actual foundry parameters and equivalently
 'Electric Binary', which has 'LT Spice IV' on background, a primary tool for circuit simulation.
 
 
+![alt text](https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/layer.PNG)
 
 
 
