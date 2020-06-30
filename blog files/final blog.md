@@ -45,12 +45,12 @@ In case of the driver-load inverter pair, various plots of td vs interconnect le
 provided fairly accurate results for T/H close to 1.
 
 <img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/length_new.png"
-	title="Cascade" width="200" height="150" />
+	title="Cascade" width="500" height="450" />
 
 
 In case of the 3 stage CMOS Ring OScillator, the model presented fairly accurate results. The output frequency produced by the circuit with the model was within
 a range of 20% from the layout circuit(with foundry parameters).
 
 <img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/ring_osc_out_new.png"
-	title="Cascade" width="200" height="150" />
+	title="Cascade" width="500" height="450" />
 
