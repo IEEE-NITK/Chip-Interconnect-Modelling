@@ -71,7 +71,7 @@ a range of 20% from the layout circuit(with foundry parameters).
 
 ## Applications
 
-The modelling of the interconnects using a RLC network can be very useful for simulation softwares to generate accurate results at ahigher frequencies
+The modelling of the interconnects using a RLC network can be very useful for simulation softwares to generate accurate results at a higher frequencies
 with a higher efficiency (in terms of complexity of computaion). So one of the main application of this project is to understand and predict the beahviour
 of on-chip interconnects at high frequencies and suitably study them.
 
