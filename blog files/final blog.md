@@ -15,19 +15,38 @@
 * Calculating the efficiency and accuracy of the proposed model against the foundry parameters.
 * Designing a GUI for displaying the results acquired from the model for any interconnect lengths.
 
-## Methodology
+## Introduction and Methodology
 
-The lower metal layer wires were modelled using the proposed pi-model RLC network. The RLC values of the pi-network was carefully 
-chosen to match the actual characteristics of the wire under test. The lengths of the interconnects was chosen as the parameter of interest.
+The advent of shrinking technology nodes in Integrated
+Circuit (IC) fabrication has led to the development of
+multi-layer metal connections to support a high density
+of transistors in a small chip area. From earlier foundry
+fabrication techniques, modern foundries support greater
+than 6 metal layers. On-chip interconnects consist of
+these metals in each layer. Metal lines which connect
+transistor devices in the same layer are defined as intra-planar
+interconnects.
+
 
 <img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/layer.PNG"
-	title="" width="250" height="200" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/3D_view-1.png"
+	title="" width="250" height="200" /> 
+	
+This figure shows the metal density in the 3D view of a simple
+2-input XOR gate. The blue lines indicate the lowest metal
+layer, M1, and the purple lines represent the next metal layer,M2. The high density metal connections in the lower metal
+region make the non-ideal interactions of the metal layers
+more significant and therefore, there is a need to model these
+non-idealities to better understand the on-chip behaviour of
+these high density circuits. This project aims to model the non-idealities present in the lowest metal layer, M1.	
+	
+<img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/3D_view-1.png"
 	title="" width="250" height="200"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/IEEE-NITK/Chip-Interconnect-Modelling/blob/master/blog%20files/rlc_new-1.png"
 	title="" width="350" height="250"/>	
-
+	
+The lower metal layer wires were modelled using the proposed pi-model RLC network. The RLC values of the pi-network was carefully 
+chosen to match the actual characteristics of the wire under test. The lengths of the interconnects was chosen as the parameter of interest.
 
 So the model's accuracy was analyzed wrt. different interconnect lenghts. The other parameters like other dimensions of the wire, nature of materials 
 and media were taken to be fixed. The actual foundry parameters and equivalently, the actual circuit behaviour was obtained using a simualtion software
