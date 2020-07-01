@@ -77,4 +77,5 @@ of on-chip interconnects at high frequencies and suitably study them.
 
 ## Acknowledgements
 
-We would like to acknowledgea and appreciate the help and support given by both of our guides Aditya Kulkarni and Prof. M S Bhat.
+We would like to acknowledgea and appreciate the help and support given by both of our guides Aditya Kulkarni and Prof. M S Bhat and we thank IEEE-NITK
+Student Branch for supporting this project.
