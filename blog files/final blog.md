@@ -101,3 +101,5 @@ of on-chip interconnects at high frequencies and suitably study them.
 
 We would like to acknowledgea and appreciate the help and support given by both of our guides Aditya Kulkarni and Prof. M S Bhat and we thank IEEE-NITK
 Student Branch for supporting this project.
+
+The final presentaion video can be found [here](https://prezi.com/v/wppb9ugxfsxx/) and the link to the slides can be found [here](https://prezi.com/p/edit/8bu4hogjfdqc/)
